@@ -1,7 +1,33 @@
-.summaryBox {
-    margin: 0 auto;
-    background-image: url(../images/illustration-hero.svg),
-    url(../images/pattern-background-desktop.svg);
-    background-origin: border-box;
-    width: 300px;
+.summaryContainer {
+    margin: 20px auto;
+    background-image: url(../images/illustration-hero.svg);
+    background-repeat: no-repeat;
+text-align: center;
+border: 2px solid;
+max-width: 420px;
+padding: 20px 5px;
+border-radius: 20px ;
 }
+
+
+.summaryText {
+    margin: 220px 0 0 0;
+}
+
+.flexContainer {
+    
+    padding: 10px;
+    background-color: #EFEFF0;
+    margin: 10px 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.flexItem{
+    margin: 0 5px;
+}
+.flexItem__Right {
+    margin-left: auto;
+}
+
