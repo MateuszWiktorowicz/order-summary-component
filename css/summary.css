@@ -1,0 +1,7 @@
+.summaryBox {
+    margin: 0 auto;
+    background-image: url(../images/illustration-hero.svg),
+    url(../images/pattern-background-desktop.svg);
+    background-origin: border-box;
+    width: 300px;
+}
