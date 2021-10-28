@@ -13,6 +13,9 @@
 .summaryText {
     margin: 220px 0 0 0;
 }
+.summaryText__grey {
+    color: #808080d4;
+}
 
 .productFlexContainer {
     padding: 20px;
