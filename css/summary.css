@@ -2,8 +2,9 @@
     margin: 20px auto;
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
+    background-color: white;
 text-align: center;
-border: 2px solid;
+
 max-width: 420px;
 padding: 20px 5px;
 border-radius: 20px ;
@@ -14,9 +15,9 @@ border-radius: 20px ;
     margin: 220px 0 0 0;
 }
 
-.flexContainer {
+.productFlexContainer {
     
-    padding: 10px;
+    padding: 20px;
     background-color: #EFEFF0;
     margin: 10px 40px;
     display: flex;
@@ -30,4 +31,15 @@ border-radius: 20px ;
 .flexItem__Right {
     margin-left: auto;
 }
+
+
+.paymentContainer {
+    background-color: #1e1fcd;
+    margin: 30px 40px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+
+
 
