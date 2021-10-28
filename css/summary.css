@@ -3,20 +3,18 @@
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-color: white;
-text-align: center;
-
-max-width: 420px;
-padding: 20px 5px;
-border-radius: 20px ;
+    text-align: center;
+    max-width: 420px;
+    padding: 20px 5px;
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
 }
-
 
 .summaryText {
     margin: 220px 0 0 0;
 }
 
 .productFlexContainer {
-    
     padding: 20px;
     background-color: #EFEFF0;
     margin: 10px 40px;
@@ -25,13 +23,13 @@ border-radius: 20px ;
     border-radius: 10px;
 }
 
-.flexItem{
+.flexItem {
     margin: 0 5px;
 }
+
 .flexItem__Right {
     margin-left: auto;
 }
-
 
 .paymentContainer {
     background-color: #1e1fcd;
@@ -40,6 +38,3 @@ border-radius: 20px ;
     color: white;
     padding: 15px;
 }
-
-
-
