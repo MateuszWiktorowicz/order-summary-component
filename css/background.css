@@ -1,0 +1,7 @@
+.backgroundContainer {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: rgb(214 225 255 / 39%);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 80px;
+}
