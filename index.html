@@ -11,12 +11,14 @@
   <title>Frontend Mentor | Order summary card</title>
   <link href="css/style.css" rel="stylesheet">
   <link href="css/summary.css" rel="stylesheet">
+  <link href="css/background.css" rel="stylesheet">
+  <link href="css/buttons" rel="stylesheet">
 
 
 </head>
 
 <body>
-
+<div class="backgroundContainer">
   <main class="summaryContainer">
     <div class="summaryText">
       <h1>Order Summary</h1>
@@ -27,13 +29,14 @@
       <div class="productFlexContainer">
         <div class="flexItem"> <img src="../images/icon-music.svg"> </div>
     <div class="flexItem">Annual Plan<br>$59.99/year</div>
-    <div class="flexItem flexItem__Right">change</div>
+    <div class="flexItem flexItem__Right"><span>Change </span></div>
     </div>
 
-    <div class="paymentBox">Proceed to Payment</div>
-    Cancel Order
+    <div class="paymentContainer"><span class="payment">Proceed to Payment</span></div>
+    <div class="cancel">Cancel Order</div>
     </div>
   </main>
+</div>
 
 
 </body>
