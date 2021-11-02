@@ -10,7 +10,8 @@
 
 .changeButton {
     text-decoration: underline;
-    color: hsla(240, 74%, 40%, 0.678);;
+    color: hsla(240, 74%, 40%, 0.678);
+    ;
     font-weight: 700;
     border: none;
 }
@@ -22,6 +23,7 @@
     border-radius: 10px;
     color: white;
     padding: 15px 90px;
+    box-shadow: -10px 10px 20px -10px hsl(240deg 74% 60% / 68%)
 }
 
 .changeButton:hover {
@@ -53,6 +55,5 @@
 
 .paymentButton:active {
     cursor: pointer;
-    color: black;
     background-color: hsla(240, 74%, 55%, 0.678);
 }
