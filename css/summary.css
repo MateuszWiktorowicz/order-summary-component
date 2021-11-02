@@ -11,8 +11,9 @@
 }
 
 .summaryText {
-    margin: 220px 0 0 0;
+    margin: 240px 0 0 0;
 }
+
 .summaryText__grey {
     color: #808080d4;
 }
@@ -32,12 +33,4 @@
 
 .flexItem__Right {
     margin-left: auto;
-}
-
-.paymentContainer {
-    background-color: #1e1fcd;
-    margin: 30px 40px;
-    border-radius: 10px;
-    color: white;
-    padding: 15px;
 }
