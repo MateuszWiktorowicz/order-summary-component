@@ -1,0 +1,58 @@
+.cancelButton {
+    color: gray;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+    background-color: #ffffff;
+}
+
+.changeButton {
+    text-decoration: underline;
+    color: hsla(240, 74%, 40%, 0.678);;
+    font-weight: 700;
+    border: none;
+}
+
+.paymentButton {
+    background-color: hsla(240, 74%, 40%, 0.678);
+    border: none;
+    margin: 30px 40px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 90px;
+}
+
+.changeButton:hover {
+    cursor: pointer;
+}
+
+.changeButton:active {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsla(240, 74%, 55%, 0.678);
+}
+
+.cancelButton:hover {
+    cursor: pointer;
+}
+
+.cancelButton:active {
+    cursor: pointer;
+    color: black;
+}
+
+.cancelButton:hover {
+    cursor: pointer;
+}
+
+.paymentButton:hover {
+    cursor: pointer;
+}
+
+.paymentButton:active {
+    cursor: pointer;
+    color: black;
+    background-color: hsla(240, 74%, 55%, 0.678);
+}
