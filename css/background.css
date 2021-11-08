@@ -6,3 +6,12 @@
     padding: 80px;
     max-width: 1440px;
 }
+
+@media(max-width: 767px) {
+    .backgroundContainer {
+        background-image: url(../images/pattern-background-mobile.svg);
+        padding: 1px;
+        margin: 0 auto;
+        background-repeat: repeat-x;
+    }
+}

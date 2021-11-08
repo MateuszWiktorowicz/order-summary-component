@@ -34,3 +34,14 @@
 .flexItem__Right {
     margin-left: auto;
 }
+
+@media(max-width: 767px) {
+    .summaryContainer {
+        padding: 10px;
+        margin: 20px 20px;
+    }
+    .productFlexContainer {
+        margin: 40px auto;
+        margin-bottom: 20px;
+    }
+}
